@@ -24,7 +24,7 @@ export default function SignIn() {
   };
 
   return (
-    <View className="gap-10 bg-white rounded-lg p-5 mt-5">
+    <View className="gap-10 bg-white rounded-lg p-5 mt-5 mb-12">
       <CustomInput
         placeholder="Enter your email"
         value={form.email}
